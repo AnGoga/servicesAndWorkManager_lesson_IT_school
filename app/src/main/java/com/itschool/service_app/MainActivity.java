@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
             return Result.success(new Data.Builder()
                     .putInt("myKey", new Random().nextInt() % 1000)
+//                    .put("object", new MyResultData())
                     .build());
         }
     }
